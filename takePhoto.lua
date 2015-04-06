@@ -1,0 +1,9 @@
+------------------------------------------------------
+-- ProjectName : SendPhotoFlame
+-- Filename : takePhoto.lua
+-- Date : 2015/3/30
+-- Update : 2015/4/4
+-- Creater : Nobuyoshi Tanaka
+-- Comment : 
+-- 選択した画像を画面上に表示する。
+------------------------------------------------------
