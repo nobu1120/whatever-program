@@ -29,7 +29,7 @@ function scene:create(event)
 
 	--ページ遷移するボタン作成
 	--  moveSceneBtn       str(Btn)            url                   option                  X    Y
-	Btn.moveSceneBtn( "changeColor" , "testScene" , { effect = "fade" , time = 1000} , 300 , 500)
+	Btn.moveSceneBtn( "changeColor" , "changeColor" , { effect = "fade" , time = 1000} , 300 , 500)
 	Btn.moveSceneBtn( "camera" , "camera" , { effect = "fade" , time = 100} , 300 , 700)
 
 
