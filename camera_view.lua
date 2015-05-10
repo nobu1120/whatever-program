@@ -47,7 +47,7 @@ local function listener()
 		end
 
 		if media.hasSource( media.PhotoLibrary ) then
-   			media.selectPhoto( { mediaSource = media.SavedPhotosAlbum, listener = onComplete2 } )
+   			media.selectPhoto( { listener = onComplete2 , mediaSource = media.SavedPhotosAlbum , destination = { baseDir = system.TemporaryDirectory, filename = "image.jpg", type ="image"}  } )
 		else
    			native.showAlert( "Corona", "This device does not have a photo library.", { "OK" } )
 		end

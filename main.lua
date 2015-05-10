@@ -24,3 +24,5 @@ local scene =composer.gotoScene("firstPage",option)
 
 
 
+
+
